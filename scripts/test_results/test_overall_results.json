@@ -1,0 +1,22 @@
+﻿{
+    "successfulTests":  3,
+    "timestamp":  "2025-09-23 13:21:25",
+    "totalTests":  3,
+    "failedTests":  0,
+    "testSuites":  [
+                       {
+                           "file":  "test_results\\test_public_functions.json",
+                           "name":  "Public Functions"
+                       },
+                       {
+                           "file":  "test_results\\test_private_functions.json",
+                           "name":  "Private Functions"
+                       },
+                       {
+                           "file":  "test_results\\test_security.json",
+                           "name":  "Security"
+                       }
+                   ],
+    "totalDuration":  0.11,
+    "successRate":  100
+}

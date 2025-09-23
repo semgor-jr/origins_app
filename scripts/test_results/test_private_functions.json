@@ -1,0 +1,22 @@
+﻿[
+    {
+        "Status":  "SUCCESS",
+        "Message":  "OK",
+        "Test":  "User Profile Testing"
+    },
+    {
+        "Status":  "SUCCESS",
+        "Message":  "OK",
+        "Test":  "Report Creation Testing"
+    },
+    {
+        "Status":  "SUCCESS",
+        "Message":  "OK",
+        "Test":  "Report Retrieval Testing"
+    },
+    {
+        "Status":  "SUCCESS",
+        "Message":  "OK",
+        "Test":  "Admin Functions Testing"
+    }
+]

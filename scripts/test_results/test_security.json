@@ -1,0 +1,217 @@
+﻿[
+    {
+        "Status":  "SUCCESS",
+        "Message":  "Security test completed",
+        "Results":  [
+                        {
+                            "Expected":  "SUCCESS",
+                            "Status":  "SUCCESS",
+                            "Message":  "OK",
+                            "IsExpected":  true,
+                            "Test":  "Valid Login"
+                        },
+                        {
+                            "Expected":  "FAILED",
+                            "Status":  "FAILED",
+                            "Message":  "Удаленный сервер возвратил ошибку: (401) Несанкционированный.",
+                            "IsExpected":  true,
+                            "Test":  "Invalid Email"
+                        },
+                        {
+                            "Expected":  "FAILED",
+                            "Status":  "FAILED",
+                            "Message":  "Удаленный сервер возвратил ошибку: (401) Несанкционированный.",
+                            "IsExpected":  true,
+                            "Test":  "Invalid Password"
+                        },
+                        {
+                            "Expected":  "FAILED",
+                            "Status":  "FAILED",
+                            "Message":  "Удаленный сервер возвратил ошибку: (401) Несанкционированный.",
+                            "IsExpected":  true,
+                            "Test":  "Empty Credentials"
+                        },
+                        {
+                            "Expected":  "FAILED",
+                            "Status":  "FAILED",
+                            "Message":  "Удаленный сервер возвратил ошибку: (401) Несанкционированный.",
+                            "IsExpected":  true,
+                            "Test":  "SQL Injection Attempt"
+                        },
+                        {
+                            "Expected":  "FAILED",
+                            "Status":  "FAILED",
+                            "Message":  "Удаленный сервер возвратил ошибку: (401) Несанкционированный.",
+                            "IsExpected":  true,
+                            "Test":  "XSS Attempt"
+                        }
+                    ],
+        "Test":  "Authentication Security Testing"
+    },
+    {
+        "Status":  "SUCCESS",
+        "Message":  "Security test completed",
+        "Results":  [
+                        {
+                            "Expected":  "SUCCESS",
+                            "Status":  "SUCCESS",
+                            "Message":  "OK",
+                            "IsExpected":  true,
+                            "Test":  "Valid Token Access"
+                        },
+                        {
+                            "Expected":  "FAILED",
+                            "Status":  "FAILED",
+                            "Message":  "Удаленный сервер возвратил ошибку: (401) Несанкционированный.",
+                            "IsExpected":  true,
+                            "Test":  "No Token Access"
+                        },
+                        {
+                            "Expected":  "FAILED",
+                            "Status":  "FAILED",
+                            "Message":  "Удаленный сервер возвратил ошибку: (401) Несанкционированный.",
+                            "IsExpected":  true,
+                            "Test":  "Invalid Token Access"
+                        },
+                        {
+                            "Expected":  "FAILED",
+                            "Status":  "FAILED",
+                            "Message":  "Удаленный сервер возвратил ошибку: (401) Несанкционированный.",
+                            "IsExpected":  true,
+                            "Test":  "Malformed Token Access"
+                        },
+                        {
+                            "Expected":  "FAILED",
+                            "Status":  "FAILED",
+                            "Message":  "Удаленный сервер возвратил ошибку: (401) Несанкционированный.",
+                            "IsExpected":  true,
+                            "Test":  "Wrong Token Format"
+                        },
+                        {
+                            "Expected":  "FAILED",
+                            "Status":  "FAILED",
+                            "Message":  "Удаленный сервер возвратил ошибку: (401) Несанкционированный.",
+                            "IsExpected":  true,
+                            "Test":  "Empty Token"
+                        }
+                    ],
+        "Test":  "Authorization Security Testing"
+    },
+    {
+        "Status":  "SUCCESS",
+        "Message":  "Security test completed",
+        "Results":  [
+                        {
+                            "Expected":  "FAILED",
+                            "Status":  "FAILED",
+                            "Message":  "Удаленный сервер возвратил ошибку: (401) Несанкционированный.",
+                            "IsExpected":  true,
+                            "Test":  "SQL Injection in Email"
+                        },
+                        {
+                            "Expected":  "FAILED",
+                            "Status":  "FAILED",
+                            "Message":  "Удаленный сервер возвратил ошибку: (401) Несанкционированный.",
+                            "IsExpected":  true,
+                            "Test":  "SQL Injection in Password"
+                        },
+                        {
+                            "Expected":  "FAILED",
+                            "Status":  "FAILED",
+                            "Message":  "Удаленный сервер возвратил ошибку: (401) Несанкционированный.",
+                            "IsExpected":  true,
+                            "Test":  "XSS in Email"
+                        },
+                        {
+                            "Expected":  "FAILED",
+                            "Status":  "FAILED",
+                            "Message":  "Удаленный сервер возвратил ошибку: (401) Несанкционированный.",
+                            "IsExpected":  true,
+                            "Test":  "XSS in Password"
+                        },
+                        {
+                            "Expected":  "FAILED",
+                            "Status":  "FAILED",
+                            "Message":  "Удаленный сервер возвратил ошибку: (401) Несанкционированный.",
+                            "IsExpected":  true,
+                            "Test":  "Path Traversal Attempt"
+                        },
+                        {
+                            "Expected":  "FAILED",
+                            "Status":  "FAILED",
+                            "Message":  "Удаленный сервер возвратил ошибку: (401) Несанкционированный.",
+                            "IsExpected":  true,
+                            "Test":  "Command Injection Attempt"
+                        }
+                    ],
+        "Test":  "Attack Protection Testing"
+    },
+    {
+        "Status":  "SUCCESS",
+        "Message":  "Security test completed",
+        "Results":  [
+                        {
+                            "Expected":  "SUCCESS",
+                            "Status":  "SUCCESS",
+                            "Message":  "OK",
+                            "IsExpected":  true,
+                            "Test":  "Valid Email Format"
+                        },
+                        {
+                            "Expected":  "FAILED",
+                            "Status":  "FAILED",
+                            "Message":  "Удаленный сервер возвратил ошибку: (401) Несанкционированный.",
+                            "IsExpected":  true,
+                            "Test":  "Invalid Email Format"
+                        },
+                        {
+                            "Expected":  "FAILED",
+                            "Status":  "FAILED",
+                            "Message":  "Удаленный сервер возвратил ошибку: (401) Несанкционированный.",
+                            "IsExpected":  true,
+                            "Test":  "Empty Email"
+                        },
+                        {
+                            "Expected":  "FAILED",
+                            "Status":  "FAILED",
+                            "Message":  "Удаленный сервер возвратил ошибку: (401) Несанкционированный.",
+                            "IsExpected":  true,
+                            "Test":  "Empty Password"
+                        },
+                        {
+                            "Expected":  "FAILED",
+                            "Status":  "FAILED",
+                            "Message":  "Удаленный сервер возвратил ошибку: (401) Несанкционированный.",
+                            "IsExpected":  true,
+                            "Test":  "Very Long Email"
+                        },
+                        {
+                            "Expected":  "FAILED",
+                            "Status":  "FAILED",
+                            "Message":  "Удаленный сервер возвратил ошибку: (401) Несанкционированный.",
+                            "IsExpected":  true,
+                            "Test":  "Very Long Password"
+                        }
+                    ],
+        "Test":  "Data Validation Testing"
+    },
+    {
+        "Status":  "SUCCESS",
+        "Message":  "Security test completed",
+        "Results":  [
+                        {
+                            "Status":  "FAILED",
+                            "Message":  "Удаленный сервер возвратил ошибку: (405) Недопустимый метод.",
+                            "Test":  "Check CORS Headers"
+                        },
+                        {
+                            "Status":  "SUCCESS",
+                            "FoundHeaders":  "Content-Type",
+                            "Message":  "Found 1/1 expected headers",
+                            "ExpectedHeaders":  "Content-Type",
+                            "Test":  "Check Content-Type Security"
+                        }
+                    ],
+        "Test":  "Security Headers Testing"
+    }
+]

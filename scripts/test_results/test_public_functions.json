@@ -1,0 +1,22 @@
+﻿[
+    {
+        "Status":  "SUCCESS",
+        "Message":  "OK",
+        "Test":  "GET /decoding-methods"
+    },
+    {
+        "Status":  "SUCCESS",
+        "Message":  "OK",
+        "Test":  "GET /news"
+    },
+    {
+        "Status":  "SUCCESS",
+        "Message":  "Analyzed 5 news items",
+        "Test":  "News Content Analysis"
+    },
+    {
+        "Status":  "SUCCESS",
+        "Message":  "Retrieved 3 methods",
+        "Test":  "Decoding Methods Analysis"
+    }
+]

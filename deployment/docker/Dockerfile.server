@@ -1,0 +1,25 @@
+# Dockerfile для сервера
+FROM openjdk:17-jdk-slim
+
+# Устанавливаем рабочую директорию
+WORKDIR /app
+
+# Копируем собранный JAR файл
+COPY server/build/libs/server-*.jar app.jar
+
+# Создаем директорию для данных
+RUN mkdir -p /app/data/dbsnp
+
+# Копируем данные dbSNP (если есть)
+COPY data/dbsnp/ /app/data/dbsnp/
+
+# Устанавливаем переменные окружения
+ENV JWT_SECRET=your-production-jwt-secret-here
+ENV DATABASE_URL=jdbc:h2:file:/app/data/origin_production
+ENV SERVER_PORT=8080
+
+# Открываем порт
+EXPOSE 8080
+
+# Запускаем приложение
+CMD ["java", "-jar", "app.jar"]
